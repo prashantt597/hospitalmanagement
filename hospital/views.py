@@ -9,7 +9,7 @@ from datetime import datetime,timedelta,date
 from django.conf import settings
 from django.db.models import Q
 
-# Create your views here.
+# your views here.
 def home_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
