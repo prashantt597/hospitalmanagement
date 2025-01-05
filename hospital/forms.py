@@ -4,7 +4,7 @@ from . import models
 
 
 
-#for admin signup
+#This is for admin signup
 class AdminSigupForm(forms.ModelForm):
     class Meta:
         model=User
